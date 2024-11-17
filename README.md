@@ -1,2 +1,2 @@
 # rukn-cleaning
-Rukn cleaning services from Ariana
+Rukn Cleaning Services LLC from Ariana
