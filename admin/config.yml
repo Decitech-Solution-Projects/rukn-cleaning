@@ -5,9 +5,11 @@ backend:
 media_folder: "images"
 
 collections:
-  - name: "home"
-    label: "index"    
-    create: true    
+  - name: "index"
+    label: "Index"
+    folder: "/"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"    
     fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string"}
