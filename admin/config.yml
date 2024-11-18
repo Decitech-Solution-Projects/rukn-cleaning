@@ -9,12 +9,8 @@ collections:
     label: "index"
     folder: "/"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    files:
-      - label: "Home Page"
-        name: "home"
-        file: "index.html"
-        fields:
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"    
+    fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string"}
           - label: "Hero Section"
