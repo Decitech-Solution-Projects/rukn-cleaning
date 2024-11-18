@@ -177,5 +177,9 @@
 	contentWayPoint();
 
 
+	$("#btnMakeAppointment").on("click", function() {
+		alert("Appointment sent !!");
+	});
+
 })(jQuery);
 
