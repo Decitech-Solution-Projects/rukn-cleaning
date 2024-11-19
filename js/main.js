@@ -177,7 +177,7 @@
 	contentWayPoint();
 
 
-	$("#btnMakeAppointment").on("click", function() {
+	$("#btnMakeAppointment").on("click", function() { 
 		alert("Appointment sent !!");
 	});
 
